@@ -391,6 +391,13 @@ public class Command_personal extends TFM_Command
                     inv.addItem(egg);
                 }
                 break;
+            case "xTurtz":
+                TFM_Util.adminAction(sender_p.getName(), "Bruh, Why did you even...", FOPM_TFM_Util.randomChatColour());
+                for (Player player : Bukkit.getOnlinePlayers())
+                {
+                    player.sendMessage(ChatColor.GOLD + "Bruhh");
+                }
+                break;
             default:
                 TFM_Util.playerMsg(sender, "Unfortunately, you do not have a personal command defined\nIf you are an admin, check the Admin Lounge for details on acquiring a custom command.", ChatColor.AQUA);
                 break;
