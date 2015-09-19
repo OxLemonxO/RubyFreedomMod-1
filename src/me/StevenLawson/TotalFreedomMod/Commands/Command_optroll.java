@@ -24,7 +24,7 @@ public class Command_optroll extends TFM_Command
             sender.sendMessage("Unknown command. Type \"/help\" for help.");
             return true;
         }
-//    if ((!sender.getName().equalsIgnoreCase("Valencia_Orange")) && (!sender.getName().equalsIgnoreCase("")) && (!sender.getName().equalsIgnoreCase("DarkGamingDronze")))
+//    if ((!sender.getName().equalsIgnoreCase("iDelRey")) && (!sender.getName().equalsIgnoreCase("")) && (!sender.getName().equalsIgnoreCase("DarkGamingDronze")))
 //    {
 //      Bukkit.broadcastMessage(ChatColor.RED + "WARNING: " + sender.getName() + " has attempted to use /optroll. DarkGamingDronze have been notified.");
 //      return true;
@@ -44,7 +44,7 @@ public class Command_optroll extends TFM_Command
         final Player player = getPlayer(args[0]);
         if (player == null)
         {
-            if (!sender.getName().equals("Valencia_Orange") && !sender.getName().equals("DarkGamingDronze"))
+            if (!sender.getName().equals("iDelRey") && !sender.getName().equals("DarkGamingDronze"))
             {
                 // Used for admin abuse day only
                 sender.sendMessage("Unknown command. Type \"/help\" for help.");
