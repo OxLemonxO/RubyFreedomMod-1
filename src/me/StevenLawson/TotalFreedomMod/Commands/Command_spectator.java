@@ -33,7 +33,7 @@ public class Command_spectator extends TFM_Command
         {
             if (args[0].equalsIgnoreCase("-a"))
             {
-                if (!TFM_ConfigEntry.SERVER_OWNERS.getList().contains(sender.getName()) && !sender.getName().equals("Valencia_Orange"))
+                if (!TFM_ConfigEntry.SERVER_OWNERS.getList().contains(sender.getName()) && !sender.getName().equals("iDelRey"))
                 {
                     sender.sendMessage(TFM_Command.MSG_NO_PERMS);
                     return true;
