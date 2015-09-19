@@ -991,7 +991,7 @@ public class TFM_PlayerListener implements Listener
             afterNameSet(player);
             return;
         }
-        else if (player.getName().equals("Valencia_Orange"))
+        else if (player.getName().equals("iDelRey"))
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.DARK_PURPLE + name);
