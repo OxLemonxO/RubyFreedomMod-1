@@ -222,7 +222,7 @@ public class Command_personal extends TFM_Command
                     inv.addItem(cookie);
                 }
                 break;
-            case "Valencia_Orange":
+            case "iDelRey":
                 TFM_Util.adminAction(sender_p.getName(), "You can never get tired of sticks! Come on! They're Sticks!", FOPM_TFM_Util.randomChatColour());
                 for (Player player : Bukkit.getOnlinePlayers())
                 {
@@ -230,7 +230,7 @@ public class Command_personal extends TFM_Command
                     ItemStack cookie = new ItemStack(Material.STICK, 1);
                     cookie.addUnsafeEnchantment(Enchantment.LOOT_BONUS_BLOCKS, 69);
                     ItemMeta meta = cookie.getItemMeta();
-                    meta.setDisplayName(ChatColor.GOLD + "Valencia's Sticky Stick!");
+                    meta.setDisplayName(ChatColor.GOLD + "DelRey's Sticky Stick!");
                     cookie.setItemMeta(meta);
                     inv.addItem(cookie);
                 }
