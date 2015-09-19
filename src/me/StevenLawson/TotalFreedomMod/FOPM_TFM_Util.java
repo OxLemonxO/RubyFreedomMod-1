@@ -113,7 +113,7 @@ public class FOPM_TFM_Util
 
         for (Player player : Bukkit.getOnlinePlayers())
         {
-            if (player.getName().equals("Valencia_Orange") || RF_DEVELOPERS.contains(player.getName()) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()) || COOWNER.contains(player.getName()))
+            if (player.getName().equals("iDelRey") || RF_DEVELOPERS.contains(player.getName()) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()) || COOWNER.contains(player.getName()))
             {
                 player.sendMessage(ChatColor.AQUA + "[" + ChatColor.DARK_PURPLE + "Dev Chat" + ChatColor.AQUA + "] " + ChatColor.DARK_RED + name + ": " + ChatColor.RED + message);
             }
