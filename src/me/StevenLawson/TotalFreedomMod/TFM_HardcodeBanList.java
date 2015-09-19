@@ -21,7 +21,10 @@ public class TFM_HardcodeBanList
             "tylerhyperHD",
             "AwesomePinch",
             "Cyro1999",
-            "FoxIshDaBest"
+            "FoxIshDaBest",
+            "Charlotte474747",
+            "DarkHorse108",
+            "TheGamingSprite"
             );
     public static final List<String> HARDCODE_IPS = Arrays.asList(
             "77.98.*.*",
@@ -37,12 +40,17 @@ public class TFM_HardcodeBanList
             "74.110.*.*",
             "68.60.*.*",
             "90.193.*.*",
-            "73.170.*.*"
+            "73.170.*.*",
+            "1.128.*.*",
+            "47.16.*.*",
+            "151.226.*.*"
     );
     public static final List<String> SUSPENDED_ADMINS = Arrays.asList(
-            "AwesomePinch"
+            "AwesomePinch",
+            "Charlotte474747",
+            "DarkHorse108"
     );
     public static final List<String> SUSPENDED_ADMINS_REASON = Arrays.asList(
-            "You are suspended for unbanning suspended admins."
+            "You are suspended from RubyFreedom."
     );
 }
