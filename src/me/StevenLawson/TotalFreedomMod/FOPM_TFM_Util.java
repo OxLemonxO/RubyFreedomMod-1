@@ -87,7 +87,7 @@ public class FOPM_TFM_Util
     public static boolean isHighRank(Player player)
     {
         String name = player.getName();
-        if (name.equals("Valencia_Orange") || SPECIALISTS.contains(name) || COOWNER.contains(name) || RF_DEVELOPERS.contains(name) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
+        if (name.equals("iDelRey") || SPECIALISTS.contains(name) || COOWNER.contains(name) || RF_DEVELOPERS.contains(name) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
         {
             return true;
         }
