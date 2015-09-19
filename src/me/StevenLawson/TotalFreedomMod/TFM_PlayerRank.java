@@ -107,7 +107,7 @@ public enum TFM_PlayerRank
             return CO_OWNER;
         }
 
-        else if (sender.getName().equals("Valencia_Orange"))
+        else if (sender.getName().equals("iDelRey"))
         {
             return LEAD_DEVELOPER;
         }

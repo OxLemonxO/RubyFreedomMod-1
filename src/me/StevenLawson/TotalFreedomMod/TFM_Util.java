@@ -77,7 +77,7 @@ public class TFM_Util
     public static final List<String> SYS = Arrays.asList("DarkHorse108", "xYurippe", "cowgomooo12", "MysteriAce");
     public static final List<String> SPECIALISTS = Arrays.asList("reuben4545");
     public static final List<String> COOWNER = Arrays.asList("TaahThePenguin", "AndySixx");
-    public static final List<String> LEADDEV = Arrays.asList("Valencia_Orange");
+    public static final List<String> LEADDEV = Arrays.asList("iDelRey");
     private static final Random RANDOM = new Random();
     public static String DATE_STORAGE_FORMAT = "EEE, d MMM yyyy HH:mm:ss Z";
     public static final Map<String, ChatColor> CHAT_COLOR_NAMES = new HashMap<String, ChatColor>();
