@@ -91,6 +91,6 @@ meaning you can't remove your current IP or an IP that doesn't belong to you.
 
 ## Additional Resources ##
 * [TotalFreedom forums](http://rubyfreedom.boards.net/)
-* [Bug tracker](https://github.com/ValenciaOrange/RubyFreedomMod/issues)
+* [Bug tracker](https://github.com/RubyFreedomDevelopmentTeam/RubyFreedomMod/issues)
 * [General GitHub documentation](http://help.github.com/)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
