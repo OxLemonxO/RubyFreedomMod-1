@@ -1164,6 +1164,7 @@ public class TFM_PlayerListener implements Listener
             event.disallow(PlayerLoginEvent.Result.KICK_OTHER, "You are gone from this server. Fuck off you twat.");
             return;
         }
+        TFM_ServerInterface.handlePlayerLogin(event);
     }
 
     @EventHandler
