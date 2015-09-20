@@ -101,6 +101,12 @@ public enum TFM_PlayerRank
         {
             return LEAD_SPECIALIST;
         }
+        
+         else if (sender.getName().equals("thederpycow54"))
+
+        {
+            return EXEC;
+        }
 
         else if (sender.getName().equals("AndySixx"))
         {
