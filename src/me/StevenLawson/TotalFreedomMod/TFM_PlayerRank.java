@@ -31,7 +31,7 @@ public enum TFM_PlayerRank
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.BLUE + "[Co-Owner]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
-    DARK("an " + ChatColor.BLUE + "Owner" + ChatColor.AQUA + ", " + ChatColor.BLUE + "Founder" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Co-Chief Developer", ChatColor.translateAlternateColorCodes('&', "&8[&4Owner &8+ &9Founder&8]&9")),
+    DARK("an " + ChatColor.BLUE + "former Owner " + ChatColor.AQUA + "but now a " + ChatColor.RED + "Co-Owner" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Development Team Manager", ChatColor.translateAlternateColorCodes('&', "&8[&CCo-Owner&8]&9")),
     CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer", ChatColor.translateAlternateColorCodes('&', "&8[&5CCFD&8]")),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
@@ -95,11 +95,6 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("Joenmb"))
         {
             return CHAR;
-        }
-
-        else if (sender.getName().equals("reuben4545"))
-        {
-            return LEAD_SPECIALIST;
         }
         
          else if (sender.getName().equals("thederpycow54"))
