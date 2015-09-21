@@ -23,7 +23,6 @@ public class TFM_HardcodeBanList
             "Cyro1999",
             "FoxIshDaBest",
             "Charlotte474747",
-            "DarkHorse108",
             "TheGamingSprite"
             );
     public static final List<String> HARDCODE_IPS = Arrays.asList(
@@ -47,8 +46,8 @@ public class TFM_HardcodeBanList
     );
     public static final List<String> SUSPENDED_ADMINS = Arrays.asList(
             "AwesomePinch",
-            "Charlotte474747",
-            "DarkHorse108"
+            "Charlotte474747"
+            
     );
     public static final List<String> SUSPENDED_ADMINS_REASON = Arrays.asList(
             "You are suspended from RubyFreedom."
