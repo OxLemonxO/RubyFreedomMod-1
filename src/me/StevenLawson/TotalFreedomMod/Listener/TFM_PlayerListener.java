@@ -1142,28 +1142,6 @@ public class TFM_PlayerListener implements Listener
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onPlayerLogin(PlayerLoginEvent event)
     {
-        Player player = event.getPlayer();
-        
-        if (player.getName().equals("tylerhyperHD"))
-        {
-            TFM_AdminList.removeSuperadmin(player);
-            event.disallow(PlayerLoginEvent.Result.KICK_OTHER, "You are gone from this server. Fuck off you twat.");
-            return;
-        }
-        
-        if (player.getAddress().equals("74.110.134.99"))
-        {
-            TFM_AdminList.removeSuperadmin(player);
-            event.disallow(PlayerLoginEvent.Result.KICK_OTHER, "You are gone from this server. Fuck off you twat.");
-            return;
-        }
-        
-        if (player.getUniqueId().equals("c9f11d86-459c-4f3b-aadb-64a5f8c3c295"))    
-        {
-            TFM_AdminList.removeSuperadmin(player);
-            event.disallow(PlayerLoginEvent.Result.KICK_OTHER, "You are gone from this server. Fuck off you twat.");
-            return;
-        }
         TFM_ServerInterface.handlePlayerLogin(event);
     }
 
