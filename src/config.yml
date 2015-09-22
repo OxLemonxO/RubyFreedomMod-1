@@ -20,7 +20,7 @@ server:
   # All players who show up as owner
   owners:
     - falceso
-    - DarkGamingDronze
+    - reuben4545
 
   # URL players should appeal for bans at
   ban_url: http://rubyfreedom.boards.net/
