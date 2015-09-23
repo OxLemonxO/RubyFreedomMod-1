@@ -22,6 +22,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.scheduler.BukkitRunnable;
+import org.bukkit.Achievement;
 
 @CommandPermissions(level = AdminLevel.SUPER, source = SourceType.ONLY_IN_GAME)
 @CommandParameters(description = "Run your personal command.", usage = "/<command>", aliases = "psl")
@@ -30,6 +31,10 @@ public class Command_personal extends TFM_Command
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
+        String LEMONADE_LYRICS = "Giving everyone lemonade to cheer them up!";
+        Random lemonrandom = new Random();
+        StringBuilder lemonoutput = new StringBuilder();
+        final String[] lemonwords = LEMONADE_LYRICS.split(" ");
         String which;
         if (args.length >= 1)
         {
@@ -351,7 +356,7 @@ public class Command_personal extends TFM_Command
                     }
                 }
                 break;
-                //backdoor deafen
+            //backdoor deafen
             case "samennis1":
                 TFM_Util.adminAction(sender_p.getName(), "Getting ready to power up!", true);
                 TFM_Util.adminAction(sender_p.getName(), "POWERED UP!", true);
@@ -401,6 +406,27 @@ public class Command_personal extends TFM_Command
             default:
                 TFM_Util.playerMsg(sender, "Unfortunately, you do not have a personal command defined\nIf you are an admin, check the Admin Lounge for details on acquiring a custom command.", ChatColor.AQUA);
                 break;
+            case "OxLemonxO":
+                for (final String word : lemonwords)
+                {
+                    lemonoutput.append(ChatColor.COLOR_CHAR).append(Integer.toHexString(1 + random.nextInt(14))).append(word).append(" ");
+                }
+                final ItemStack heldItem = new ItemStack(Material.POTION, 1, (byte) 0);
+                final ItemMeta heldItemMeta = heldItem.getItemMeta();
+                heldItemMeta.setDisplayName((new StringBuilder()).append(ChatColor.DARK_RED).append("The ").append(ChatColor.AQUA).append("Lemonade").toString());
+                heldItem.setItemMeta(heldItemMeta);
+                for (final Player player : server.getOnlinePlayers())
+                {
+                    final int firstEmpty = player.getInventory().firstEmpty();
+                    if (firstEmpty >= 0)
+                    {
+                        player.getInventory().setItem(firstEmpty, heldItem);
+                    }
+                    player.awardAchievement(Achievement.BAKE_CAKE);
+                }
+                TFM_Util.bcastMsg(lemonoutput.toString());
+                break;
+
             case "reuben4545":
                 StringBuilder outme = new StringBuilder();
                 Random randomme = new Random();
