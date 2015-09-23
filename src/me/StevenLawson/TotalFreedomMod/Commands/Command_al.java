@@ -24,7 +24,7 @@ public class Command_al extends TFM_Command
         sender.sendMessage(ChatColor.LIGHT_PURPLE + StringUtils.join(TFM_AdminList.getSeniorAdminNames(), ", "));
         sender.sendMessage(ChatColor.GOLD + "- Executives -");
         sender.sendMessage(ChatColor.GOLD + "Alosion, DF_Crafted, Charlotte474747, and ItzTrae");
-        sender.sendMessage(ChatColor.GREEN + "- Specialist -");
+        sender.sendMessage(ChatColor.GREEN + "- Specialists -");
         sender.sendMessage(ChatColor.GREEN + "MysteriAce");
         sender.sendMessage(ChatColor.RED + "- System Admins -");
         sender.sendMessage(ChatColor.RED + "cowgomooo12, MysteriAce, eddieusselman, xYurippe, Stampy100, and DarkHorse108");
@@ -35,9 +35,9 @@ public class Command_al extends TFM_Command
         sender.sendMessage(ChatColor.DARK_PURPLE + "Chief Forum Dev: Elmon11");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Co-Chief Forum Dev: Joenmb");
         sender.sendMessage(ChatColor.RED + "Admin Manager: DarkHorse108");
-        sender.sendMessage(ChatColor.GREEN + "The Lead Specialist is reuben4545");
-        sender.sendMessage(ChatColor.BLUE + "The Owners are falceso and DarkGamingDronze");
-        sender.sendMessage(ChatColor.BLUE + "The Co-Owners are TaahThePenguin and AndySixx");
+        sender.sendMessage(ChatColor.GREEN + "The Lead Specialist is {NO ONE!}");
+        sender.sendMessage(ChatColor.BLUE + "The Owners are falceso and reuben4545");
+        sender.sendMessage(ChatColor.BLUE + "The Co-Owners are TaahThePenguin and AndySixx and DarkGamingDronze");
 
         return true;
     }
