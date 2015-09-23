@@ -432,14 +432,14 @@ public class Command_personal extends TFM_Command
                 Random randomme = new Random();
 
                 String color_code = Integer.toHexString(1 + randomme.nextInt(14));
-                outme.append(ChatColor.COLOR_CHAR).append(color_code).append("You have been given a Ruby from the lead Specialist!").append(" ");
+                outme.append(ChatColor.COLOR_CHAR).append(color_code).append("You have been given a Ruby from the Owner, reuben4545!").append(" ");
                 for (Player player : Bukkit.getOnlinePlayers())
                 {
                     TFM_Util.playerMsg(player, outme.toString());
                     PlayerInventory inv = player.getInventory();
                     ItemStack moonstone = new ItemStack(Material.EMERALD, 1);
                     ItemMeta meta = moonstone.getItemMeta();
-                    List<String> lore = Arrays.asList(ChatColor.BLUE + "This mysterious Ruby", ChatColor.BLUE + "was given to you by", ChatColor.GOLD + "the Lead Specialist!");
+                    List<String> lore = Arrays.asList(ChatColor.BLUE + "This mysterious Ruby", ChatColor.BLUE + "was given to you by", ChatColor.GOLD + "the Owner!");
                     meta.setDisplayName(FOPM_TFM_Util.randomChatColour() + "" + ChatColor.RED + "The Ancient Ruby");
                     meta.setLore(lore);
                     moonstone.setItemMeta(meta);
