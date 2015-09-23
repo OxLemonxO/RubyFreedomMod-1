@@ -124,16 +124,11 @@ public enum TFM_PlayerRank
             return HORSE;
         }
         
-        else if (sender.getName().equals("decyj145"))
+         else if (sender.getName().equals("decyj145"))
         {
-            return DECY
+            return DECY;
         }
         
-          else if (sender.getName().equals("DecstarPlayzMC"))
-        {
-            return DECY
-        }
-
         else if (sender.getName().equals("DarkGamingDronze"))
         {
             return DARK;
