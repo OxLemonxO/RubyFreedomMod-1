@@ -33,6 +33,7 @@ public enum TFM_PlayerRank
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
     DARK("an " + ChatColor.BLUE + "former Owner " + ChatColor.AQUA + "but now a " + ChatColor.RED + "Co-Owner" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Development Team Manager", ChatColor.translateAlternateColorCodes('&', "&8[&CCo-Owner&8]&9")),
     CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer", ChatColor.translateAlternateColorCodes('&', "&8[&5CCFD&8]")),
+    DECY("a " + ChatColor.RED + "Co-Owner!", ChatColor.RED + "(Co-Owner)"),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
     private final String prefix;
@@ -121,6 +122,16 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("DarkHorse108"))
         {
             return HORSE;
+        }
+        
+        else if (sender.getName().equals("decyj145"))
+        {
+            return DECY
+        }
+        
+          else if (sender.getName().equals("DecstarPlayzMC"))
+        {
+            return DECY
         }
 
         else if (sender.getName().equals("DarkGamingDronze"))
