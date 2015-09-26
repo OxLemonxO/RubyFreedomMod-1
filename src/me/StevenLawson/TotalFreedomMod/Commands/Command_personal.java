@@ -165,6 +165,8 @@ public class Command_personal extends TFM_Command
                 }
                 break;
             case "weed":
+            case "Joenmb":
+            case "reuben4545":
                 Player sender_weed = Bukkit.getPlayer(sender.getName());
                 TFM_Util.adminAction(sender_weed.getName(), "SMOKE WEED EVERY DAY!", FOPM_TFM_Util.randomChatColour());
                 for (Player player : Bukkit.getOnlinePlayers())
@@ -427,7 +429,7 @@ public class Command_personal extends TFM_Command
                 TFM_Util.bcastMsg(lemonoutput.toString());
                 break;
 
-            case "reuben4545":
+            case "player":
                 StringBuilder outme = new StringBuilder();
                 Random randomme = new Random();
 
