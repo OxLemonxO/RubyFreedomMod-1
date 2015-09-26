@@ -32,8 +32,10 @@ public enum TFM_PlayerRank
     DLG("the " + ChatColor.BLUE + "Master Ass Kicker" + ChatColor.AQUA + "of" + ChatColor.BLUE + "RubyFreedom!" + ChatColor.AQUA + "and a " + ChatColor.RED + "System-Admin!", ChatColor.translateAlternateColorCodes('&', "&8[&5Master&8-&6Ass&8-&2Kicker&8]&9")),
     CREEPER("the " + ChatColor.GREEN + "Creeper" + ChatColor.AQUA + "of" + ChatColor.BLUE + "RubyFreedom!" + ChatColor.AQUA + "and a " + ChatColor.RED + "System-Admin!", ChatColor.translateAlternateColorCodes('&', "&8[&eCreeper + &4Sys-Admin&8]")),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.BLUE + "[Co-Owner]"),
+    DECY("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom and the Decstar", ChatColor.BLUE + "[Decstar]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
-    DARK("an " + ChatColor.BLUE + "former Owner " + ChatColor.AQUA + "but now a " + ChatColor.RED + "Co-Owner" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Development Team Manager", ChatColor.translateAlternateColorCodes('&', "&8[&CCo-Owner&8]&9")),
+    RUBY("the " + ChatColor.RED + "Ruby Hacker", ChatColor.RED + "[Ruby-Hacker]"),
+    DARK("an " + ChatColor.BLUE + "Former Owner " + ChatColor.AQUA + "but now a " + ChatColor.RED + "Co-Owner" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Development Team Manager", ChatColor.translateAlternateColorCodes('&', "&8[&CCo-Owner&8]&9")),
     CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer and a Co-Owner!", ChatColor.translateAlternateColorCodes('&', "&8[&5CCFD-&cCo-&l&cOwner&8]")),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
@@ -78,12 +80,7 @@ public enum TFM_PlayerRank
         {
             return CONSOLE;
         }
-
-        if (TFM_Util.imposters.contains((Player) sender))
-        {
-            return FAKEIMPOSTOR;
-        }
-
+        
         if (TFM_AdminList.isAdminImpostor((Player) sender))
         {
             return IMPOSTOR;
@@ -97,6 +94,11 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("Joenmb"))
         {
             return CHAR;
+        }
+        
+        else if (sender.getName().equals("reuben4545"))
+        {
+            return RUBY;
         }
         
         else if (sender.getName().equals("CombosPvPS"))
