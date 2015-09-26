@@ -35,8 +35,7 @@ public enum TFM_PlayerRank
     DECY("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom and the Decstar", ChatColor.BLUE + "[Decstar]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
     RUBY("the " + ChatColor.RED + "Ruby Hacker", ChatColor.RED + "[Ruby-Hacker]"),
-    DARK("an " + ChatColor.BLUE + "Former Owner " + ChatColor.AQUA + "but now a " + ChatColor.RED + "Co-Owner" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Development Team Manager", ChatColor.translateAlternateColorCodes('&', "&8[&CCo-Owner&8]&9")),
-    CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer and a Co-Owner!", ChatColor.translateAlternateColorCodes('&', "&8[&5CCFD-&cCo-&l&cOwner&8]")),
+    CHAR("the " + ChatColor.DARK_PURPLE + "Chief Forum Developer and a Roblox Pro!", ChatColor.translateAlternateColorCodes('&', "&8[&5Chief Forum Dev&8]&9")),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
     private final String prefix;
@@ -152,10 +151,6 @@ public enum TFM_PlayerRank
             return DECY;
         }
         
-        else if (sender.getName().equals("DarkGamingDronze"))
-        {
-            return DARK;
-        }
         
         else if (FOP_DEVELOPERS.contains(sender.getName()))
         {
