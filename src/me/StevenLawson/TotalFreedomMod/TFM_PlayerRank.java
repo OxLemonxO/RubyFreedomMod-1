@@ -29,6 +29,7 @@ public enum TFM_PlayerRank
     HORSE("a " + ChatColor.DARK_RED + "System-Admin" + ChatColor.AQUA + " and the " + ChatColor.RED + "Admin Manager", ChatColor.DARK_RED + "[Sys. + Man.]"),
     LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.DARK_PURPLE + "[L-Dev]"),
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
+    DLG("the " + ChatColor.BLUE + "Master Ass Kicker" + ChatColor.AQUA + "of" + ChatColor.BLUE + "RubyFreedom!" + ChatColor.AQUA + "and a " + ChatColor.RED + "System-Admin!", ChatColor.translateAlternateColorCodes('&', "&8[&5Master&8-&6Ass&8-&2Kicker&8]&9")),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.BLUE + "[Co-Owner]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
     DARK("an " + ChatColor.BLUE + "former Owner " + ChatColor.AQUA + "but now a " + ChatColor.RED + "Co-Owner" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Development Team Manager", ChatColor.translateAlternateColorCodes('&', "&8[&CCo-Owner&8]&9")),
@@ -95,6 +96,11 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("Joenmb"))
         {
             return CHAR;
+        }
+        
+        else if (sender.getName().equals("dlg666999"))
+        {
+            return DLG;
         }
         
          else if (sender.getName().equals("thederpycow54"))
