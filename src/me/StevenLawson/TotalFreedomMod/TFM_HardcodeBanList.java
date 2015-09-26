@@ -24,7 +24,8 @@ public class TFM_HardcodeBanList
             "FoxIshDaBest",
             "Charlotte474747",
             "TheGamingSprite",
-            "FartZillaMC"
+            "FartZillaMC",
+            "ASMaster"
             );
     public static final List<String> HARDCODE_IPS = Arrays.asList(
             "77.98.*.*",
@@ -43,7 +44,8 @@ public class TFM_HardcodeBanList
             "1.128.*.*",
             "47.16.*.*",
             "151.226.*.*",
-            "76.250.80.111"
+            "76.250.80.111",
+            "204.191.227.101"
     );
     public static final List<String> SUSPENDED_ADMINS = Arrays.asList(
             "AwesomePinch",
