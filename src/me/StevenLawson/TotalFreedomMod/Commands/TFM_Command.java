@@ -16,8 +16,8 @@ import org.bukkit.entity.Player;
 public abstract class TFM_Command
 {
     public static final String MSG_NO_PERMS = ChatColor.RED + "We're sorry, but you do not have access to this command.";
-    public static final String YOU_ARE_OP = ChatColor.BLUE + "You are now an operator!";
-    public static final String YOU_ARE_NOT_OP = ChatColor.GREEN + "You are no longer an operator!";
+    public static final String YOU_ARE_OP = ChatColor.BLUE + "You are now a operator!";
+    public static final String YOU_ARE_NOT_OP = ChatColor.GREEN + "You are no longer a operator!";
     public static final String NOT_FROM_CONSOLE = "This command may not be used from the console.";
     public static final String PLAYER_NOT_FOUND = ChatColor.RED + "We're sorry, but the player you're searching for cannot be found!";
     protected TotalFreedomMod plugin;
