@@ -31,13 +31,13 @@ public class Command_al extends TFM_Command
         sender.sendMessage(ChatColor.DARK_PURPLE + "- Developers -");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Lead Dev: iDelRey");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Dev Team Manager: DarkGamingDronze");
-        sender.sendMessage(ChatColor.DARK_PURPLE + "Developers: Hockeyfan360 and falceso and reuben4545");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "Developers: Hockeyfan360, falceso, and reuben4545");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Chief Forum Dev: Elmon11");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Co-Chief Forum Dev: Joenmb");
         sender.sendMessage(ChatColor.RED + "Admin Manager: DarkHorse108");
-        sender.sendMessage(ChatColor.GREEN + "The Lead Specialist is {NO ONE}");
-        sender.sendMessage(ChatColor.BLUE + "The Owners are falceso and reuben4545");
-        sender.sendMessage(ChatColor.BLUE + "The Co-Owners are TaahThePenguin and AndySixx and DarkGamingDronze and decyj145 and Joenmb");
+        sender.sendMessage(ChatColor.GREEN + "The Lead Specialist is no one.");
+        sender.sendMessage(ChatColor.BLUE + "The Owners are falceso, and reuben4545");
+        sender.sendMessage(ChatColor.BLUE + "The Co-Owners are TaahThePenguin, AndySixx, DarkGamingDronze, decyj145, and Joenmb");
 
         return true;
     }
