@@ -1002,8 +1002,9 @@ public class TFM_PlayerListener implements Listener
         else if (player.getName().equals("reuben4545"))
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
-            player.setPlayerListName(ChatColor.GREEN + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&aLead Specialist&8]");
+            player.setPlayerListName(ChatColor.RED + name);
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Owner + &cRuby-Hacker&8]");
+            player.chat("DDoSes are black Hacking is fait Wait what you see");
             afterNameSet(player);
             return;
         }
@@ -1011,7 +1012,7 @@ public class TFM_PlayerListener implements Listener
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.DARK_PURPLE + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Co-Chief Forum Developer&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Co-Chief Forum Developer + &cCo-Owner&8]");
             afterNameSet(player);
             return;
         }
@@ -1019,7 +1020,7 @@ public class TFM_PlayerListener implements Listener
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.BLUE + player.getName());
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Owner&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&cCo-Owner&8]");
             player.chat("Ill lel around lel");
             afterNameSet(player);
             return;
