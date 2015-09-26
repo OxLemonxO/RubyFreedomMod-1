@@ -1004,7 +1004,7 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.RED + name);
             TFM_PlayerData.getPlayerData(player).setTag("&8[&9Owner + &cRuby-Hacker&8]");
-            player.chat("DDoSes are black Hacking is fait Wait what you see");
+            player.chat("DDoSes are black Hacking is fait Guess what you wait");
             afterNameSet(player);
             return;
         }
