@@ -1034,6 +1034,13 @@ public class TFM_PlayerListener implements Listener
                 afterNameSet(player);
                 return;
             }
+            else if (player.getName().equals("CombosPvPs"))
+            {
+                player.setPlayerListName(ChatColor.YELLOW + name);
+                TFM_PlayerData.getPlayerData(player).setTag("&8[&eCreeper&8]");
+                afterNameSet(player);
+                return;
+            }
             else if (player.getName().equals("DarkHorse108"))
             {
                 player.setPlayerListName(ChatColor.DARK_RED + name);
