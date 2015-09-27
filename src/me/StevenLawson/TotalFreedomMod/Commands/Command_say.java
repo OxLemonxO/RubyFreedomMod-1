@@ -18,13 +18,7 @@ public class Command_say extends TFM_Command
         {
             return false;
         }
-        
-        if (senderIsConsole)
-        {
-            TFM_Log.info("Don't spam you prick!");
-            return true;
-        }
-
+       
         String message = StringUtils.join(args, " ");
 
         if (senderIsConsole && TFM_Util.isFromHostConsole(sender.getName()))
