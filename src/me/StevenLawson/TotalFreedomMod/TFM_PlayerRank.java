@@ -30,7 +30,7 @@ public enum TFM_PlayerRank
     LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.DARK_PURPLE + "[L-Dev]"),
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
     DLG("the " + ChatColor.BLUE + "Master Ass Kicker" + ChatColor.AQUA + "of" + ChatColor.BLUE + "RubyFreedom!" + ChatColor.AQUA + "and a " + ChatColor.RED + "System-Admin!", ChatColor.translateAlternateColorCodes('&', "&8[&5Master&8-&6Ass&8-&2Kicker&8]&9")),
-    CREEPER("the " + ChatColor.GREEN + "Creeper" + ChatColor.AQUA + "of" + ChatColor.BLUE + "RubyFreedom!" + ChatColor.AQUA + "and a " + ChatColor.RED + "System-Admin!", ChatColor.translateAlternateColorCodes('&', "&8[&eCreeper + &4Sys-Admin&8]")),
+    CREEPER("the " + ChatColor.GREEN + "Creeper " + ChatColor.AQUA + "of " + ChatColor.BLUE + "RubyFreedom! " + ChatColor.AQUA + "and a " + ChatColor.RED + "System-Admin!", ChatColor.translateAlternateColorCodes('&', "&8[&eCreeper + &4Sys-Admin&8]")),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.BLUE + "[Co-Owner]"),
     DECY("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom and the Decstar", ChatColor.BLUE + "[Decstar]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
