@@ -50,8 +50,7 @@ public class TFM_HardcodeBanList
     public static final List<String> SUSPENDED_ADMINS = Arrays.asList(
             "AwesomePinch",
             "Charlotte474747",
-            "tylerhyperHD",
-            "DarkGamingDronze"
+            "tylerhyperHD"
             
     );
     public static final List<String> SUSPENDED_ADMINS_REASON = Arrays.asList(
