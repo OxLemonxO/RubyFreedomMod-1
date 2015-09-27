@@ -35,7 +35,7 @@ public enum TFM_PlayerRank
     DECY("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom and the Decstar", ChatColor.BLUE + "[Decstar]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
     RUBY("the " + ChatColor.RED + "Ruby Hacker", ChatColor.RED + "[Ruby-Hacker]"),
-    CHAR("the " + ChatColor.DARK_PURPLE + "Chief Forum Developer and a Roblox Pro!", ChatColor.translateAlternateColorCodes('&', "&8[&5Chief Forum Dev&8]&9")),
+    CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer and a Roblox Pro!", ChatColor.translateAlternateColorCodes('&', "&8[&5Co-Chief Forum Dev&8]&9")),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
     private final String prefix;
