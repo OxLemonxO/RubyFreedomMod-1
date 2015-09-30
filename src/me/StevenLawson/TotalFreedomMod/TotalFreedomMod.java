@@ -232,7 +232,7 @@ public class TotalFreedomMod extends JavaPlugin
                 props.load(in);
                 in.close();
 
-                builder = props.getProperty("program.builder", "unknown");
+                builder = props.getProperty("program.builder", "DarkGamingDronze");
                 number = props.getProperty("program.buildnumber", "1");
                 head = props.getProperty("program.buildhead", "unknown");
                 date = props.getProperty("program.builddate", "unknown");
