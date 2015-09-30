@@ -6,7 +6,6 @@ import java.util.Random;
 import me.StevenLawson.TotalFreedomMod.Config.TFM_ConfigEntry;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.COOWNER;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.RF_DEVELOPERS;
-import static me.StevenLawson.TotalFreedomMod.TFM_Util.SPECIALISTS;
 import static me.StevenLawson.TotalFreedomMod.TotalFreedomMod.server;
 import org.bukkit.Achievement;
 import org.bukkit.Bukkit;
@@ -87,7 +86,7 @@ public class FOPM_TFM_Util
     public static boolean isHighRank(Player player)
     {
         String name = player.getName();
-        if (name.equals("iDelRey") || SPECIALISTS.contains(name) || COOWNER.contains(name) || RF_DEVELOPERS.contains(name) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
+        if (name.equals("iDelRey") || COOWNER.contains(name) || RF_DEVELOPERS.contains(name) || name.equals("DarkGamingDronze") || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
         {
             return true;
         }
