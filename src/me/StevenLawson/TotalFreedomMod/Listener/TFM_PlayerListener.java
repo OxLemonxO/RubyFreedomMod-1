@@ -1002,9 +1002,9 @@ public class TFM_PlayerListener implements Listener
         else if (player.getName().equals("reuben4545"))
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
-            player.setPlayerListName(ChatColor.RED + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Owner + &cRuby-Hacker&8]");
-            player.chat("DDoSes are black Hacking is fait Guess what you wait");
+            player.setPlayerListName(ChatColor.GREEN + name);
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Owner&8]");
+            player.chat("DDOSes are black, Hackig is fait, guess what you wait.");
             afterNameSet(player);
             return;
         }
@@ -1012,7 +1012,16 @@ public class TFM_PlayerListener implements Listener
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.DARK_PURPLE + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Chief Forum Developer&8]&9");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Co-Chief Forum Developer&8]");
+            afterNameSet(player);
+            return;
+        }
+        else if (player.getName().equals("DarkGamingDronze"))
+        {
+            TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
+            player.setPlayerListName(ChatColor.BLUE + player.getName());
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&cOwner Trainer&8]");
+            player.chat("Ill lel around lel");
             afterNameSet(player);
             return;
         }
@@ -1034,13 +1043,6 @@ public class TFM_PlayerListener implements Listener
                 afterNameSet(player);
                 return;
             }
-            else if (player.getName().equals("CombosPvPs"))
-            {
-                player.setPlayerListName(ChatColor.YELLOW + name);
-                TFM_PlayerData.getPlayerData(player).setTag("&8[&eCreeper&8]");
-                afterNameSet(player);
-                return;
-            }
             else if (player.getName().equals("DarkHorse108"))
             {
                 player.setPlayerListName(ChatColor.DARK_RED + name);
@@ -1059,13 +1061,6 @@ public class TFM_PlayerListener implements Listener
             {
                 player.setPlayerListName(ChatColor.DARK_BLUE + name);
                 TFM_PlayerData.getPlayerData(player).setTag("&8[&9Co-Owner&8]");
-                afterNameSet(player);
-                return;
-            }
-            if (TFM_Util.SPECIALISTS.contains(name))
-            {
-                player.setPlayerListName(ChatColor.GREEN + name);
-                TFM_PlayerData.getPlayerData(player).setTag("&8[&aSpecialist&8]");
                 afterNameSet(player);
                 return;
             }
